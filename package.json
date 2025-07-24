@@ -1,0 +1,55 @@
+{
+  "name": "proto-gen-ts",
+  "version": "1.0.0",
+  "description": "A CLI tool for generating TypeScript types from Protocol Buffer files",
+  "main": "index.js",
+  "types": "dist/main.d.ts",
+  "bin": {
+    "proto": "./index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run clean && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "protobuf",
+    "typescript",
+    "code-generation",
+    "cli",
+    "proto",
+    "grpc"
+  ],
+  "author": "Ajin",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ajin-can/proto-gen-ts.git"
+  },
+  "homepage": "https://github.com/Ajin-can/proto-gen-ts#readme",
+  "bugs": {
+    "url": "https://github.com/Ajin-can/proto-gen-ts/issues"
+  },
+  "files": [
+    "index.js",
+    "dist/",
+    "bufbuild/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "graceful-fs": "^4.2.11"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/graceful-fs": "^4.1.9",
+    "typescript": "^5.0.0"
+  }
+}

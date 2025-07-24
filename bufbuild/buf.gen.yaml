@@ -1,0 +1,10 @@
+version: v1
+plugins:
+  - plugin: es
+    out: cli-gen-ts-file
+    opt: target=js+dts
+    path: ./node_modules/.bin/protoc-gen-es
+  - plugin: connect-es
+    out: cli-gen-ts-file
+    opt: target=js+dts
+    path: ./node_modules/.bin/protoc-gen-connect-es

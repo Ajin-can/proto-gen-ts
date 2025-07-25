@@ -1,6 +1,6 @@
 # proto-gen-ts
 
-[![npm version](https://badge.fury.io/js/proto-gen-ts.svg)](https://badge.fury.io/js/proto-gen-ts)
+[![npm version](https://img.shields.io/npm/v/proto-gen-ts.svg)](https://www.npmjs.com/package/proto-gen-ts)
 [![CI](https://github.com/Ajin-can/proto-gen-ts/workflows/CI/badge.svg)](https://github.com/Ajin-can/proto-gen-ts/actions)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 

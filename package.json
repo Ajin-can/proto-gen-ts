@@ -1,6 +1,6 @@
 {
   "name": "proto-gen-ts",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A CLI tool for generating TypeScript types from Protocol Buffer files",
   "main": "index.js",
   "types": "dist/main.d.ts",
